@@ -1,0 +1,171 @@
+@charset "utf-8";
+/* CSS Document */
+body, div, dl, dt, dd, ul, ol, li, h1, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote {margin: 0;padding: 0;}
+body {font-size: 100%;font-family: "宋体", "Arial","微软雅黑";color: #555;background:#f1f6f0;overflow-y:hidden;overflow-x:hidden;}
+html,body {height:100%;padding:0px; margin:0px;}
+fieldset, img {max-height: auto; border:none; max-width:100%;}
+address, caption, cite, code, dfn, em, strong, th, var {font-style: normal;}
+ol, ul, li {list-style: none;}
+h1, h2, h3, h4, h5, h6 , p {font-size: 100%;font-weight: normal;line-height: 200%;}
+q:before, q:after {content: ”;}
+abbr, acronym {border: 0;}
+a {color: #555;text-decoration: none}
+a:hover {color: #FF6600;text-decoration: none}
+/* 设置HTML5元素为块 */
+article， aside， details， figcaption， figure， footer， header， hgroup， menu， nav， section {display: block;}
+
+.header {width:100%;overflow:hidden;height:50px; background:#e7f3db;line-height:50px; border-bottom:1px solid #a9c66f; position:absolute; top:0; z-index:999999;_position:relative;}
+.header p {width:100%; text-align:left;line-height:50px; font-size:1.25em; color:#106835; font-weight:bold; margin:0 auto; background:url(../images/top.jpg) center center repeat-x;padding:0 0 0 10px;}
+.art {width:100%;overflow:hidden;}
+.lef {width:240px;padding:2% 0 0 0;  position:fixed; left:0; overflow:hidden; top:50px;_position:relative; _float:left;}
+.lef_zc { text-align:center;}
+.lef p {width:92%;padding:20px 2% 0 6%; font-size:0.875em;overflow:hidden; text-align:left;}
+.c_top_gg {width:100%;overflow:hidden;padding:10px;}
+.c_top_gg p {width:98%;overflow:hidden; font-size:0.875em; color:#000; font-weight:bold;line-height:25px; padding-left:1%;}
+.c_top_gg p span ,.c_top_gg p a {color:#ff0000;}
+.c_top_r {width:100%;overflow:hidden;}
+.c_top_a1 {width:50%;}
+.center {_width:auto;_float:left;_position:relative;}
+.c_clike {width:14px;height:386px; position:fixed; float:right;top:50px;left:226px;_position:absolute;}
+.c_clike a {width:14px; height:386px; display:block;}
+.c_clike a:hover {width:14px; height:386px; display:block; background:url(../images/l_switchers.png) top center no-repeat;}
+.c_clike2 {width:14px;height:386px; position:fixed; float:right;top:50px;left:3px; display:none; z-index:9999;_position:absolute;}
+.c_clike2 a {width:14px; height:386px; display:block;}
+.c_clike2 a:hover {width:14px; height:386px; display:block; background:url(../images/r_switchers.png) top center no-repeat;}
+
+.c_top {width:auto; border:1px solid #95b391; background:#FFF; border-top:none;height:auto; top:50px; bottom:130px; word-wrap: break-word; position:fixed; overflow:scroll;overflow-x:hidden; left:240px;_width:97%; _position:static;_overflow-y:auto;_height:435px; padding-right:10px;}
+.c_top_img { max-width:100%; overflow:hidden;}
+.c_top_sw {width:98%;overflow:hidden;padding:0 0px 10px 0;line-height:30px;}
+.c_top_sw a {color:#106835;padding:0 0 0 10px;}
+.c_top_sw a:hover {color:#f00;}
+.c_top_sw span {color:#ff0000;}
+.c_top_art {width:98%;overflow:hidden;padding:20px 0 0 10px;margin:10px 1%;word-wrap: break-word;}
+.c_top_time {width:80px; text-align:center; height:25px; background:#eff3f7;margin:0 auto; border-radius:5px;line-height:25px;padding:0 5px;color:#106835;}
+.c_say_dc {width:100%;overflow:hidden;padding:5px 0; float:left;}
+.c_say_dc h3 {width:100%;line-height:30px;color:#0034ff; font-size:0.875em;}
+.c_say_dc p {width:100%;line-height:23px;overflow:hidden;font-size:0.875em;}
+.c_say_dc p span {color:#ff0000;}
+.c_say_pa {width:100%;overflow:hidden;padding:5px 0;float:left;}
+.c_say_pa h3 {width:100%;height:30px;line-height:30px;color:#3a8064; font-size:0.875em;}
+.c_say_pa p {width:100%;line-height:23px;overflow:hidden;font-size:0.875em;}
+
+.c_bql {width:auto; position:fixed; left:240px; bottom:92px;padding:7px 0 0 0;_position:static; _bottom:0px;_width:81%;background:#f1f6f0; z-index:999;}
+.c_bq2 {width:auto;height:30px;padding:0 0 0 0; position:fixed; bottom:0px; left:240px;_position:static; _bottom:0px;_width:97%;background:#f1f6f0; font-size:0.75em;line-height:30px;}
+
+.c_bq_txt {width:100%;height:30px;overflow:hidden;padding:0 0 0 0;}
+.c_bq_txt a {height:30px;padding:0 5px; float:left;line-height:30px;}
+.c_bq_txt a img { max-width:100%;}
+
+.c_bott {width:auto;height:60px;position:fixed; bottom:30px;left:240px; background:#FFF; right:2px;border:1px solid #95b391;_position:static;_width:99%;}
+.c_bott textarea {width:90%; min-width:100px;float:left;height:60px;resize:none; line-height:20px; border:none;outline:0;_width:89.59%;}
+.c_bott button {width:10%; float:left;height:60px;border:none; border-left:1px solid #95b391; line-height:20px;background:url(../images/button.jpg) center center repeat-x;font-size:1.25em; font-family:"微软雅黑";color:#106835; cursor:pointer; _border-left:none}
+
+
+@media (max-width: 960px){
+.c_bql ,.c_bq2 , .c_top {_width:95%;}
+}
+@media (max-width: 640px){
+.lef , .c_clike , .c_clike2 { display:none;width:0px;}
+.c_top , .c_bott , .c_bql , .c_bq2{ left:0px;_width:100%; position:fixed; width:100%;}
+	}
+@media (max-width: 480px){
+.c_bott textarea { width:80%}
+.c_bott button 	{width:20%;}
+}
+
+/*--块状盒子模型--*/
+.clearfix {
+    zoom: 1;
+    display: block;
+}
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+
+li {
+    list-style: none;
+}
+.facebox ul {
+    background: #fff;
+    margin: 0px 0px;
+    padding: 0;
+}
+.facebox ul li {
+    cursor: pointer;
+    padding: 4px;
+    background: #fff;
+    border-right: solid 1px #e8e8e8;
+    border-bottom: solid 1px #e8e8e8;
+    float: left;
+    overflow: hidden;
+}
+.facebox ul li img {
+    width: 22px;
+    height: 22px;
+    display: block;
+    background: #fff;
+}
+.facebox ul li:hover {
+    margin-left: -1px;
+    margin-top: -1px;
+    border-left: solid 1px #0095cd;
+    border-top: solid 1px #0095cd;
+    border-right: solid 1px #0095cd;
+    border-bottom: solid 1px #0095cd;
+}
+#face {
+    position:fixed;
+	_position:absolute;
+    display: none;
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #CCCCCC;
+    width: 400px;
+    padding: 0px 0px;
+    z-index: 999999;
+    text-align: left;
+    margin:-0 0px 0% 0;
+	_margin:-50px 0px 0% -240px;
+	
+}
+#facebox {
+    margin: 10px 12px 20px;
+    border-top: 1px solid #e8e8e8;
+    border-left: 1px solid #e8e8e8;
+    width: 372px;
+}
+#texttb {
+    height: 28px;
+    margin: 0px 0px;
+    padding: 0;
+    background: #F0F0F0;
+}
+#texttb .f_close {
+    position: absolute;
+    right: 14px;
+    top: 5px;
+    z-index: 99;
+}
+.f_close {
+    background:url(../images/delete_items.gif) no-repeat scroll transparent;
+    cursor: pointer;
+    display: block;
+    height: 19px;
+    width: 19px;
+}
+.arrow {
+    display: block;
+    overflow: hidden;
+    position: absolute;
+}
+.arrow_t {
+    background-position: 0 -1px;
+    height: 11px;
+    width: 16px;
+    left: 30px;
+    bottom: -11px;
+}
